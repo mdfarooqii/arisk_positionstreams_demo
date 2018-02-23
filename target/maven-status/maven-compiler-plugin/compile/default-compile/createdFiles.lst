@@ -1,0 +1,6 @@
+com\ubs\risk\arisk\stream\position\model\PositionValue.class
+com\ubs\risk\arisk\stream\position\PositionStream$1.class
+com\ubs\risk\arisk\stream\position\model\PositionKey.class
+com\ubs\risk\arisk\stream\position\PositionStream.class
+com\ubs\risk\arisk\stream\position\serializer\JsonSerializer.class
+com\ubs\risk\arisk\stream\position\serializer\JsonDeserializer.class
