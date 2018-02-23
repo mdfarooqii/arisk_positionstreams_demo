@@ -55,7 +55,7 @@ public class PositionStream {
 
 
         // in order to write the results back to kafka
-        positionKVTable.to(outputTopicName);
+        positionKVTable.to( positionKeySerde,positionValueSerde,outputTopicName);
 
 
         KafkaStreams streams = new KafkaStreams(builder, config);
